@@ -29,8 +29,8 @@
 ![Screenshot (48)](https://user-images.githubusercontent.com/89910095/152670055-aa170bf2-10fa-4018-8c09-36539b5b0411.png)
 
 5. **Use Redux State and Actions in Components**
-   -We can read data from the store with useSelector.
-   -dispatch actions using UseDispatch.
+   - We can read data from the store with useSelector.
+   - dispatch actions using UseDispatch.
    
    ![Screenshot (49)](https://user-images.githubusercontent.com/89910095/152670108-1750f9ed-f052-4db0-ab06-b09766f7c818.png)
    
