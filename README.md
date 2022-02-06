@@ -7,15 +7,15 @@
 ### npx create-react-app my-app --template redux
 
 1. **Create a Redux Store**
-  -src/app/store.js.
-  -configureStore API from Redux Toolkit.
+  - src/app/store.js.
+  - configureStore API from Redux Toolkit.
   
 ![Screenshot (50)](https://user-images.githubusercontent.com/89910095/152670171-52662e59-fcb7-4284-b62e-9390094e060e.png)
 
 
 2. **Provide the Redux Store to React**
-   -import { store} from './app/store'
-   -import { provider from 'react-redux'
+   - import { store} from './app/store'
+   - import { provider from 'react-redux'
    
 ![Screenshot (51)](https://user-images.githubusercontent.com/89910095/152670177-207df99a-6dcb-49f0-b49a-32f8f21fb7ec.png)
 
@@ -34,5 +34,5 @@
    
    ![Screenshot (49)](https://user-images.githubusercontent.com/89910095/152670108-1750f9ed-f052-4db0-ab06-b09766f7c818.png)
    
-   ## THIS IS ALL ABOUT THE COUNTER APP AND HOW TO USE REDUX-TOOLKIT.
+   ###THIS IS ALL ABOUT THE COUNTER APP AND HOW TO USE REDUX-TOOLKIT. ###
 
