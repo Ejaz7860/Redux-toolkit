@@ -1,44 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## **Counter App using Redux-toolkit**
 
-## Available Scripts
+![Screenshot (46)](https://user-images.githubusercontent.com/89910095/152670005-c0f46328-f984-42f6-9e78-751672157f9e.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation
+### npx create-react-app my-app --template redux
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Create a Redux Store
+  -src/app/store.js.
+  -configureStore API from Redux Toolkit.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**import { configureStore } from '@reduxjs/toolkit'
 
-### `npm test`
+***export const store = configureStore({
+  reducer: {},
+})***
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Provide the Redux Store to React
+   -import { store} from './app/store'
+   -import { provider from 'react-redux'
 
-### `npm run build`
+***ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+)***
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Create a Redux State Slice**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Screenshot (49)](https://user-images.githubusercontent.com/89910095/152669999-859ec8d7-44a8-4358-b2d3-cd7c56b1f1ca.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Add Slice Reducers to the Store**
 
-### `npm run eject`
+![Screenshot (48)](https://user-images.githubusercontent.com/89910095/152670055-aa170bf2-10fa-4018-8c09-36539b5b0411.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. **Use Redux State and Actions in Components**
+   -We can read data from the store with useSelector.
+   -dispatch actions using UseDispatch.
+   
+   ![Screenshot (49)](https://user-images.githubusercontent.com/89910095/152670108-1750f9ed-f052-4db0-ab06-b09766f7c818.png)
+   
+   ## THIS IS ALL ABOUT THE COUNTER APP AND HOW TO USE REDUX-TOOLKIT.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
