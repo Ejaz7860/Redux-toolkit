@@ -13,7 +13,7 @@
 ![Screenshot (50)](https://user-images.githubusercontent.com/89910095/152670171-52662e59-fcb7-4284-b62e-9390094e060e.png)
 
 
-2. **Provide the Redux Store to React
+2. **Provide the Redux Store to React**
    -import { store} from './app/store'
    -import { provider from 'react-redux'
    
