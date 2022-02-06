@@ -6,26 +6,19 @@
 ## Installation
 ### npx create-react-app my-app --template redux
 
-1. **Create a Redux Store
+1. **Create a Redux Store**
   -src/app/store.js.
   -configureStore API from Redux Toolkit.
+  
+![Screenshot (50)](https://user-images.githubusercontent.com/89910095/152670171-52662e59-fcb7-4284-b62e-9390094e060e.png)
 
-**import { configureStore } from '@reduxjs/toolkit'
-
-***export const store = configureStore({
-  reducer: {},
-})***
 
 2. **Provide the Redux Store to React
    -import { store} from './app/store'
    -import { provider from 'react-redux'
+   
+![Screenshot (51)](https://user-images.githubusercontent.com/89910095/152670177-207df99a-6dcb-49f0-b49a-32f8f21fb7ec.png)
 
-***ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-)***
 
 3. **Create a Redux State Slice**
 
