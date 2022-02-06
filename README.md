@@ -34,5 +34,5 @@
    
    ![Screenshot (49)](https://user-images.githubusercontent.com/89910095/152670108-1750f9ed-f052-4db0-ab06-b09766f7c818.png)
    
-   ###THIS IS ALL ABOUT THE COUNTER APP AND HOW TO USE REDUX-TOOLKIT. ###
+   ##THIS IS ALL ABOUT THE COUNTER APP AND HOW TO USE REDUX-TOOLKIT.##
 
